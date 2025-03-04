@@ -6,7 +6,7 @@ var con_id: String #创建的对话id
 func _ready() -> void:
 	create()#这里必须要有，是调用方法，这个函数类似main，是主函数
 
-#发起对话请求
+#发起对话请求：
 func create():
 	var url :=''#这里存放我们需要输入的链接
 	var body :={
