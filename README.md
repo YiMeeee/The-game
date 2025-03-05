@@ -5,3 +5,14 @@ AI测试的文件是连接API的，目前是GD语言，详细使用可以看打�
 正式使用版本为GameV6版本，目前我还在升级维护。
 
 目前在做新版本，API用硅基流动的Deepseek
+
+# AI交互界面的设计：
+
+ 在场景中添加这些节点：
+Control
+├── VBoxContainer
+│   ├── ScrollContainer # 对话历史容器
+│   │   └── Label/RichTextLabel # 显示对话历史
+│   ├── HBoxContainer # 输入区容器
+│   │   ├── LineEdit # 用户输入框
+│   │   └── Button # 发送按钮
